@@ -21,7 +21,7 @@ Follow instructions to proceed
 ```cmd
   -D, --dimensions         Required. Specifies dimensionality
 
-  -d, --d-num              Required. Range of searched integers, [-2^d, 2^d]
+  -d, --d-num              Required. Range of searched integers, [-2^d, 2^d)
 
   -a, --a-mat              Required. Defines A matrix
 
