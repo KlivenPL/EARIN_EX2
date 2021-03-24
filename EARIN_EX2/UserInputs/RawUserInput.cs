@@ -6,7 +6,7 @@ namespace EARIN_EX2.UserInputs {
         [Option('D', "dimensions", Required = true, HelpText = "Specifies dimensionality")]
         public int Dimensions { get; set; }
 
-        [Option('d', "d-num", Required = true, HelpText = "Range of searched integers, [-2^d, 2^d]")]
+        [Option('d', "d-num", Required = true, HelpText = "Range of searched integers, [-2^d, 2^d)")]
         public int D { get; set; }
 
         [Option('a', "a-mat", Required = true, HelpText = "Defines A matrix")]
