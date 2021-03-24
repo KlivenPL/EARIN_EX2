@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "EARIN_EX2": {
+      "commandName": "Project",
+      "commandLineArgs": "-D 3 -d 3 -a -2,1,0;1,-2,1;0,1,-2 -b -14,14,-2 -c -23.5 -p 50 -C 0.9 -m 0.05 -i 100"
+    }
+  }
+}
